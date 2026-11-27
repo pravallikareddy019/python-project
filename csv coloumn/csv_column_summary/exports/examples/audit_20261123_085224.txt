@@ -1,0 +1,50 @@
+CSV Column Summary Tool v1.0.0 - AUDIT LOG
+Generated: 2026-11-23T08:52:24
+========================================================================
+Datasets: 2   Rows: 70   Columns: 22
+Missing cells: 95 (12.18%)   Status: Needs attention
+Alerts: 3 critical, 7 warning, 2 info
+========================================================================
+
+[2026-11-23T08:52:24] DATASET sample_data  source=/home/claude/csv_column_summary/data/sample_data.csv  imported=2026-11-23T08:52:23
+    rows=40 columns=12 rejected_rows=1 completeness=88.75%
+    COLUMN student_id             type=text     missing=0    (  0.0%) unique=40
+    COLUMN full_name              type=text     missing=0    (  0.0%) unique=40
+    COLUMN department             type=text     missing=0    (  0.0%) unique=6
+    COLUMN age                    type=mixed    missing=1    (  2.5%) unique=9 min=17 max=61 mean=21.24 median=20
+    COLUMN gpa                    type=float    missing=7    ( 17.5%) unique=27 min=0 max=4 mean=2.82 median=2.62
+    COLUMN attendance_pct         type=integer  missing=1    (  2.5%) unique=26 min=0 max=250 mean=83.72 median=81
+    COLUMN credits                type=integer  missing=0    (  0.0%) unique=4 min=12 max=21 mean=16.95 median=18
+    COLUMN enrolled_on            type=date     missing=0    (  0.0%) unique=34
+    COLUMN scholarship            type=boolean  missing=2    (  5.0%) unique=2
+    COLUMN email                  type=text     missing=9    ( 22.5%) unique=31
+    COLUMN mentor_id              type=text     missing=33   ( 82.5%) unique=7
+    COLUMN campus                 type=text     missing=1    (  2.5%) unique=1
+
+[2026-11-23T08:52:24] DATASET sample_orders  source=/home/claude/csv_column_summary/data/sample_orders.csv  imported=2026-11-23T08:52:23
+    rows=30 columns=10 rejected_rows=0 completeness=86.33%
+    COLUMN order_id               type=text     missing=0    (  0.0%) unique=30
+    COLUMN customer               type=text     missing=0    (  0.0%) unique=30
+    COLUMN product                type=text     missing=0    (  0.0%) unique=7
+    COLUMN quantity               type=integer  missing=0    (  0.0%) unique=9 min=0 max=500 mean=20.57 median=5
+    COLUMN unit_price             type=float    missing=2    (  6.7%) unique=7 min=12.75 max=89 mean=53.56 median=54.25
+    COLUMN order_date             type=date     missing=0    (  0.0%) unique=30
+    COLUMN status                 type=text     missing=0    (  0.0%) unique=4
+    COLUMN shipped                type=boolean  missing=0    (  0.0%) unique=2
+    COLUMN discount_pct           type=integer  missing=20   ( 66.7%) unique=3 min=5 max=15 mean=10 median=10
+    COLUMN rating                 type=integer  missing=19   ( 63.3%) unique=5 min=1 max=5 mean=3.09 median=3
+
+------------------------------------------------------------------------
+ALERTS
+    CRITICAL sample_data.mentor_id: 82.5% missing (33/40) - above 50% limit.
+    CRITICAL sample_orders.discount_pct: 66.7% missing (20/30) - above 50% limit.
+    CRITICAL sample_orders.rating: 63.3% missing (19/30) - above 50% limit.
+    WARNING  sample_data.*: 1 row(s) were rejected during import.
+    WARNING  sample_data.age: Mixed value types (integer: 38, text: 1).
+    WARNING  sample_data.age: 1 outlier value(s) outside the IQR range (min 17, max 61, Q1 19, Q3 21.75).
+    WARNING  sample_data.attendance_pct: 2 outlier value(s) outside the IQR range (min 0, max 250, Q1 71, Q3 93.50).
+    WARNING  sample_data.email: 22.5% missing (9/40) - above 20% limit.
+    WARNING  sample_data.gpa: 1 outlier value(s) outside the IQR range (min 0, max 4, Q1 2.39, Q3 3.32).
+    WARNING  sample_orders.quantity: 1 outlier value(s) outside the IQR range (min 0, max 500, Q1 3, Q3 5).
+    INFO     sample_data.campus: Every non-missing value is identical (constant column).
+    INFO     sample_data.enrolled_on: Newest date is 448 days old (2025-09-01).

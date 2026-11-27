@@ -1,0 +1,43 @@
+student_id,full_name,department,age,gpa,attendance_pct,credits,enrolled_on,scholarship,email,mentor_id,campus
+S1001,Aarav Sharma,Mechanical,19,4.00,100,15,2025-03-13,no,aarav.sharma@campus.edu,M33,Main
+S1002,Ananya Reddy,Civil,23,0.00,0,12,2024-08-07,yes,ananya.reddy@campus.edu,,Main
+S1003,Vihaan Patel,Mathematics,17,3.24,74,21,2024-09-08,no,vihaan.patel@campus.edu,,Main
+S1004,Diya Iyer,Computer Science,61,3.59,72,21,2024-09-11,no,diya.iyer@campus.edu,,Main
+S1005,Arjun Nair,Mechanical,twenty,2.57,68,12,2025-07-13,no,arjun.nair@campus.edu,,Main
+S1006,Isha Gupta,Computer Science,21,3.24,250,18,2024-08-13,yes,isha.gupta@campus.edu,M27,Main
+S1007,Kabir Khan,Mathematics,,3.63,85,18,2024-08-23,yes,kabir.khan@campus.edu,,Main
+S1008,Meera Das,Mechanical,18,NA,67,15,2024-08-13,no,meera.das@campus.edu,,Main
+S1009,Rohan Rao,Mechanical,22,,72,15,2025-06-16,no,rohan.rao@campus.edu,,Main
+S1010,Saanvi Menon,Physics,20,3.41,66,18,2024-08-18,no,,,Main
+S1011,Aditya Sharma,Civil,20,2.48,79,21,2024-08-22,,aditya.sharma@campus.edu,M36,Main
+S1012,Nisha Reddy,Computer Science,18,NA,82,18,2024-09-03,yes,nisha.reddy@campus.edu,,Main
+S1013,Karthik Patel,Civil,21,2.57,null,21,2025-08-14,no,karthik.patel@campus.edu,,Main
+S9999,Broken Row,Physics,20,3.1,88,15,2025-01-05,yes,broken@campus.edu,,Main,UNEXPECTED,EXTRA
+S1014,Priya Iyer,Mathematics,19,2.62,96,15,2024-09-19,no,,,Main
+S1015,Rahul Nair,Electronics,21,2.58,94,18,2024-08-25,yes,rahul.nair@campus.edu,,Main
+S1016,Sneha Gupta,Electronics,19,NA,89,18,2024-08-13,no,sneha.gupta@campus.edu,M29,Main
+S1017,Vivek Khan,Mathematics,22,,62,21,2025-02-27,no,vivek.khan@campus.edu,,Main
+S1018,Tara Das,Civil,21,2.39,72,18,2024-08-24,no,tara.das@campus.edu,,Main
+S1019,Manish Rao,Electronics,20,3.87,94,12,2024-09-27,no,manish.rao@campus.edu,,Main
+S1020,Lakshmi Menon,Electronics,23,NA,85,15,2024-08-20,no,lakshmi.menon@campus.edu,,Main
+S1021,Harsh Sharma,Mechanical,22,2.23,81,15,2025-01-17,,harsh.sharma@campus.edu,M40,Main
+S1022,Pooja Reddy,Civil,19,2.35,66,18,2024-08-05,no,,,Main
+S1023,Siddharth Patel,Electronics,22,3.83,78,18,2024-09-07,no,,,Main
+S1024,Divya Iyer,Civil,20,NA,85,18,2024-09-04,yes,divya.iyer@campus.edu,,Main
+S1025,Nikhil Nair,Computer Science,20,2.31,99,18,2025-04-28,yes,nikhil.nair@campus.edu,,Main
+S1026,Riya Gupta,Physics,18,2.32,65,15,2024-08-02,no
+S1027,Varun Khan,Physics,23,2.61,93,15,2024-08-24,no,,,Main
+S1028,Kavya Das,Civil,22,2.62,88,15,2024-08-04,no,kavya.das@campus.edu,,Main
+S1029,Dev Rao,Civil,21,2.81,91,21,2025-01-13,yes,dev.rao@campus.edu,,Main
+S1030,Anjali Menon,Computer Science,21,3.45,77,15,2024-08-18,no,anjali.menon@campus.edu,,Main
+S1031,Imran Sharma,Mechanical,19,2.93,91,15,2024-08-15,no,,M13,Main
+S1032,Zoya Reddy,Mathematics,18,3.32,62,12,2024-08-06,no,zoya.reddy@campus.edu,,Main
+S1033,Gautam Patel,Civil,22,3.03,65,15,2025-07-10,no,gautam.patel@campus.edu,,Main
+S1034,Neha Iyer,Civil,20,3.79,80,18,2024-09-05,yes,neha.iyer@campus.edu,,Main
+
+S1035,Yash Nair,Computer Science,20,2.57,99,21,2024-08-24,no,,,Main
+S1036,Sana Gupta,Civil,18,2.29,94,18,2024-08-02,no,sana.gupta@campus.edu,M12,Main
+S1037,Omkar Khan,Computer Science,19,2.32,77,18,2025-02-28,yes,omkar.khan@campus.edu,,Main
+S1038,Bhavna Das,Civil,18,3.27,99,18,2024-09-09,yes,bhavna.das@campus.edu,,Main
+S1039,Tejas Rao,Civil,21,2.61,70,21,2024-09-15,no,,,Main
+S1040,Mira Menon,Mathematics,19,2.22,98,12,2025-09-01,yes,mira.menon@campus.edu,,Main

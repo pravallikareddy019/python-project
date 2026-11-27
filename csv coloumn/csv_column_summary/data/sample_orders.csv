@@ -1,0 +1,31 @@
+order_id,customer,product,quantity,unit_price,order_date,status,shipped,discount_pct,rating
+O-5001,Aarav Sharma,Desk lamp,0,31.00,2026-08-03,Shipped,true,5,
+O-5002,Diya Das,Mechanical keyboard,500,89.00,2026-10-27,Shipped,true,,
+O-5003,Kabir Nair,Desk lamp,1,NA,2026-07-22,Shipped,true,,
+O-5004,Saanvi Reddy,Laptop stand,5,-,2026-04-04,Delivered,true,15,5
+O-5005,Karthik Rao,USB-C hub,5,39.90,2026-06-23,Shipped,true,,5
+O-5006,Sneha Gupta,Mechanical keyboard,5,89.00,2026-10-09,Delivered,true,,1
+O-5007,Manish Patel,Laptop stand,5,24.50,2026-03-01,Pending,false,10,
+O-5008,Pooja Menon,Monitor arm,5,67.40,2026-05-24,Delivered,true,,4
+O-5009,Nikhil Khan,Desk lamp,1,31.00,2026-04-03,Pending,false,,
+O-5010,Kavya Iyer,Notebook pack,1,12.75,2026-08-19,Delivered,true,15,2
+O-5011,Imran Sharma,Webcam,1,54.25,2026-07-12,Delivered,true,,1
+O-5012,Neha Das,Mechanical keyboard,4,89.00,2026-04-12,Delivered,true,,5
+O-5013,Omkar Nair,Monitor arm,3,67.40,2026-06-28,Pending,false,5,
+O-5014,Mira Reddy,Monitor arm,7,67.40,2026-03-06,Delivered,true,,3
+O-5015,Vihaan Rao,Monitor arm,4,67.40,2026-07-06,Pending,false,,
+O-5016,Isha Gupta,Monitor arm,7,67.40,2026-03-28,Delivered,true,10,2
+O-5017,Rohan Patel,USB-C hub,6,39.90,2026-07-27,Pending,false,,
+O-5018,Nisha Menon,Monitor arm,4,67.40,2026-03-22,Delivered,true,,2
+O-5019,Rahul Khan,Webcam,5,54.25,2026-04-25,Shipped,true,10,
+O-5020,Tara Iyer,Mechanical keyboard,7,89.00,2026-08-01,Cancelled,false,,
+O-5021,Harsh Sharma,Laptop stand,3,24.50,2026-07-02,Shipped,true,,
+O-5022,Divya Das,Laptop stand,7,24.50,2026-08-24,Cancelled,false,10,
+O-5023,Varun Nair,Webcam,2,54.25,2026-09-19,Cancelled,false,,
+O-5024,Anjali Reddy,USB-C hub,1,39.90,2026-09-01,Shipped,true,,
+O-5025,Gautam Rao,Desk lamp,4,31.00,2026-08-14,Cancelled,false,5,
+O-5026,Sana Gupta,Notebook pack,6,12.75,2026-04-24,Shipped,true,,
+O-5027,Tejas Patel,Mechanical keyboard,5,89.00,2026-09-11,Cancelled,false,,
+O-5028,Ananya Menon,Webcam,3,54.25,2026-06-14,Shipped,true,15,
+O-5029,Arjun Khan,Webcam,5,54.25,2026-09-18,Delivered,true,,
+O-5030,Meera Iyer,Monitor arm,5,67.40,2026-07-07,Delivered,true,,4
